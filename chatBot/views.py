@@ -66,7 +66,7 @@ def send_messages(message, token):
                    """ Yo' Mama is so fat, when the cops see her on a street corner, they yell, "Hey you guys, break it up!" """],
         'dumb':   ["""THis is fun""",
                    """THis isn't fun"""],
-        '/start': 'Hello Welcome to Yo Mama Jokes.'
+        '/start': ['Hello Welcome to Yo Mama Jokes.',]
     }
 
     post_message_url = "https://api.telegram.org/bot{0}/sendMessage".format(
